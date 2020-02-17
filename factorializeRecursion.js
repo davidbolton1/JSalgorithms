@@ -11,3 +11,18 @@ function factorialize(num) {
         return (num * factorialize(num - 1));
     }
 }
+
+
+function FirstFactorial(num) { 
+
+
+    let factorial = 1; 
+    
+    for (let i = 1; i <= num; i++) {
+        factorial *= i;  
+    } 
+ 
+ 
+  return factorial; 
+         
+}
